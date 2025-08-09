@@ -7,6 +7,8 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+    #This comment is added in remote branch of Ruchitha
+
     def append(self, data):
         new_node = Node(data)
         if not self.head:
